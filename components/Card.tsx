@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const Card = () => {
@@ -5,7 +6,7 @@ const Card = () => {
     <div className="mt-20 grid grid-cols-1 md:grid-cols-2 gap-20 md:gap-5">
       <div className="card lg:card-side bg-gray-300 text-gray-900 shadow-xl">
         <figure>
-          <img
+          <Image
             src="/pexelcamera2.jpg"
             alt="Album"
             className="h-[300px] w-[500px]"
@@ -21,7 +22,7 @@ const Card = () => {
       </div>
       <div className="card lg:card-side bg-gray-300 text-gray-900 shadow-xl">
         <figure>
-          <img
+          <Image
             src="/pexe1.jpg"
             alt="Album"
             className="h-[300px] w-[500px]"
